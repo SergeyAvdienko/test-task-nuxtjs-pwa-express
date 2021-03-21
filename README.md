@@ -1,20 +1,17 @@
-# pwa
+## Тестовое задание
 
-## Build Setup
+## Задание
+
+Необходимо в сделать простейшую реализацию CRUD web-приложения. Для этого необходимо использовать Front - nuxt.js (pwa) Back - node.js (express) Db - mongodb.
+
+![Мокап](./workapp.gif)
+
+# Дополнительное требование
+
+Возможность развернуть приложение в Docker
+
+Запуск Dockerа реализуйте командой:
 
 ```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+$ docker-compose up
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
